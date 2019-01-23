@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>UN Goals Step 5</title>
+
+<style>
+	body {
+	  font-family: Arial, Helvetica, sans-serif;
+	}
+	.flip-box {
+	  background-color: transparent;
+	  width: 300px;
+	  height: 300px;
+	  perspective: 1000px;
+	}
+	.flip-box-inner {
+	  position: relative;
+	  width: 100%;
+	  height: 100%;
+	  text-align: center;
+	  transition: transform 0.8s;
+	  transform-style: preserve-3d;
+	}
+	.flip-box:hover .flip-box-inner {
+	  transform: rotateY(180deg);
+	}
+	.flip-box-front, .flip-box-back {
+	  position: absolute;
+	  width: 100%;
+	  height: 100%;
+	  backface-visibility: hidden;
+	  
+	}
+	.flip-box-front {
+	  background-color: #bbb;
+	  color: black;
+	}
+	.flip-box-back {
+	  background-color: dodgerblue;
+	  color: white;
+	  transform: rotateY(180deg);
+	}
+
+  .flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: DodgerBlue;
+  align-content: center;
+  justify-content: center;
+  }
+
+  .flex-container > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+  }
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+</style>
+
+
+</head>
+<body>
+
+<picture>
+  <source media="(min-width: 940px)" srcset="images/LogoHorizontal.png">
+  <img class = "center" src="images/LogoSquare.png" alt="Flowers" style="width:auto;">
+</picture>
+
+<div class = "flex-container">
+  <div class="flip-box">
+    <div class="flip-box-inner">
+      <div class="flip-box-front">
+       <img src="images/1_UN_Goals_NoPoverty.png" alt="Avatar" style="width:300px; height:300px;"/>
+      </div>
+      <div class="flip-box-back" style="background-color: #EB1C2D">
+        <h3>No Poverty</h3>
+        <p>Should budget from the infranstructure be diverted to helping poverty rates?</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="flip-box">
+    <div class="flip-box-inner">
+      <div class="flip-box-front">
+       <img src="images/2_UN_Goals_ZeroHunger.png" alt="Avatar" style="width:300px; height:300px;"/>
+      </div>
+      <div class="flip-box-back" style="background-color: #d3a029">
+        <h3>Zero Hunger</h3>
+        <p>Whats the most cost effective way to provide food for the lower class?</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="flip-box">
+    <div class="flip-box-inner">
+      <div class="flip-box-front">
+       <img src="images/3_UN_Goals_GoodHealthAndWellBeing.png" alt="Avatar" style="width:300px; height:300px;"/>
+      </div>
+      <div class="flip-box-back" style = "background-color: #279B48;">
+        <h3>Good Health and Well-Being</h3>
+        <p>Is it possible to ban all car traffic in the downtown core?</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="flip-box">
+    <div class="flip-box-inner">
+      <div class="flip-box-front">
+       <img src="images/4_UN_Goals_QualityEducation.png" alt="Avatar" style="width:300px; height:300px;"/>
+      </div>
+      <div class="flip-box-back" style="background-color: #C31F33;">
+        <h3>Quality Educaiton</h3>
+        <p>Should schools and teacher population in indigenous communities be incresed?</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="flip-box">
+    <div class="flip-box-inner">
+      <div class="flip-box-front">
+       <img src="images/5_UN_Goals_GenderEquality.png" alt="Avatar" style="width:300px; height:300px;"/>
+      </div>
+      <div class="flip-box-back" style="background-color: #EF402B;">
+        <h3>Gender Equality</h3>
+        <p>Should there be less of a divide between genders inside religious places?</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="flip-box">
+    <div class="flip-box-inner">
+      <div class="flip-box-front">
+       <img src="images/6_UN_Goals_CleanWaterAndSanitation.png" alt="Avatar" style="width:300px; height:300px;"/>
+      </div>
+      <div class="flip-box-back" style="background-color: #00AED9;">
+        <h3>Clean Water and Sanitation</h3>
+        <p>Should water be supplied to all communities including indeginous communities?</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="flip-box">
+    <div class="flip-box-inner">
+      <div class="flip-box-front">
+       <img src="images/7_UN_Goals_AffordableAndCleanEnergy.png" alt="Avatar" style="width:300px; height:300px;"/>
+      </div>
+      <div class="flip-box-back" style="background-color: #F99D26;">
+        <h3>Affordable and Clean Energy</h3>
+        <p>Is nuclear fusion the most affordable and clean energy?</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="flip-box">
+    <div class="flip-box-inner">
+      <div class="flip-box-front">
+       <img src="images/8_UN_Goals_DecentWorkAndEconomicGrowth.png" alt="Avatar" style="width:300px; height:300px;"/>
+      </div>
+      <div class="flip-box-back" style="background-color: #8F1838;">
+        <h3>Decent Work and Economic Growth</h3>
+        <p>Should more factories be built in order to account for the homeless?</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="flip-box">
+    <div class="flip-box-inner">
+      <div class="flip-box-front">
+       <img src="images/9_UN_Goals_IndustryInnovationAndInfrastructure.png" alt="Avatar" style="width:300px; height:300px;"/>
+      </div>
+      <div class="flip-box-back" style="background-color: #f36d2f">
+        <h3>Industriy, Innovation and Infrastructure</h3>
+        <p>Why should innovation be a first priority to millenials?</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="flip-box">
+    <div class="flip-box-inner">
+      <div class="flip-box-front">
+       <img src="images/10_UN_Goals_ReducedInequalities.png" alt="Avatar" style="width:300px; height:300px;"/>
+      </div>
+      <div class="flip-box-back" style="background-color: #FF1484;">
+        <h3>Reduced Inequalities</h3>
+        <p>Would doing all interviews with a curtain be helpful?</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="flip-box">
+    <div class="flip-box-inner">
+      <div class="flip-box-front">
+       <img src="images/11_UN_Goals_SustainableCitiesAndCommunities.png" alt="Avatar" style="width:300px; height:300px;"/>
+      </div>
+      <div class="flip-box-back" style="background-color: #F99D26">
+        <h3>Sustainable Cities and Communities</h3>
+        <p>Would an all electric transportation route be helpful to decrese harmful emissions (Greenhouse Gas effect)?</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="flip-box">
+    <div class="flip-box-inner">
+      <div class="flip-box-front">
+       <img src="images/12_UN_Goals_ResponsibleConsumptionAndProduction.png" alt="Avatar" style="width:300px; height:300px;"/>
+      </div>
+      <div class="flip-box-back" style="background-color: #CF8D2A;">
+        <h3>Responsible Consumption and Production</h3>
+        <p>Could there be a increse of the fines for littering?</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="flip-box">
+    <div class="flip-box-inner">
+      <div class="flip-box-front">
+       <img src="images/13_UN_Goals_ClimateAction.png" alt="Avatar" style="width:300px; height:300px;"/>
+      </div>
+      <div class="flip-box-back" style="background-color: #48773E">
+        <h3>Climate Action</h3>
+        <p>At what year does the world climate become unbearable for humans?</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="flip-box">
+    <div class="flip-box-inner">
+      <div class="flip-box-front">
+       <img src="images/14_UN_Goals_LifeBelowWater.png" alt="Avatar" style="width:300px; height:300px;"/>
+      </div>
+      <div class="flip-box-back" style="background-color: #007DBC;">
+        <h3>Life Below Water</h3>
+        <p>What year does the wildlife underwater go extinct because of water temperatures?</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="flip-box">
+    <div class="flip-box-inner">
+      <div class="flip-box-front">
+       <img src="images/15_UN_Goals_LifeOnLand.png" alt="Avatar" style="width:300px; height:300px;"/>
+      </div>
+      <div class="flip-box-back" style="background-color: #3EB049;">
+        <h3>Life on Land</h3>
+        <p>Can humans live without the amazon rainforest (comfortably)?</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="flip-box">
+    <div class="flip-box-inner">
+      <div class="flip-box-front">
+       <img src="images/16_UN_Goals_PeaceJusticeAndStrongInstitutions.png" alt="Avatar" style="width:300px; height:300px;"/>
+      </div>
+      <div class="flip-box-back" style="background-color: #02558B">
+        <h3>Peace, Justice and Strong Institution</h3>
+        <p>Should there be no death penalty?</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="flip-box">
+    <div class="flip-box-inner">
+      <div class="flip-box-front">
+       <img src="images/17_UN_Goals_PartnershipsForTheGoals.png" alt="Avatar" style="width:300px; height:300px;"/>
+      </div>
+      <div class="flip-box-back" style="background-color: #183668">
+        <h3>Partnerships for the Goals</h3>
+        <p>Is there a way to inform millions of people at once to take action?</p>
+      </div>
+    </div>
+  </div>
+</div> 
+</body>
+</html>
