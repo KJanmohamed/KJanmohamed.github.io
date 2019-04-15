@@ -1,0 +1,205 @@
+{
+   "@context":{
+      "ex":"http://example.com/vocab/",
+      "description_fr":{
+         "@language":"fr",
+         "@id":"dct:description"
+      },
+      "title_fr":{
+         "@language":"fr",
+         "@id":"dct:title"
+      },
+      "title":{
+         "@id":"dct:title"
+      },
+      "dcat":"http://www.w3.org/ns/dcat",
+      "broader":{
+         "@id":"skos:broader"
+      },
+      "foaf":"http://xmlns.com/foaf/0.1",
+      "description":{
+         "@id":"dct:description"
+      },
+      "dct":"http://purl.org/dc/terms",
+      "name":{
+         "@id":"dc:identifier"
+      },
+      "@language":"en",
+      "type":{
+         "@id":"dc:type"
+      },
+      "skos":"http://www.w3.org/2004/02/skos/core"
+   },
+   "licenses":[
+      {
+         "type":"OGL-Canada-2.0",
+         "url":"http://licenses.opendefinition.org/licenses/OGL-Canada-2.0.json"
+      }
+   ],
+   "datapackage_version":"1.0-beta.10",
+   "sources":[
+      {
+         "e-mail":"enviroinfo@ec.gc.ca",
+         "name":"Government of Canada, Environment and Climate Change Canada",
+         "web":"http://ec.gc.ca"
+      }
+   ],
+   "base":"http://data.ec.gc.ca/data",
+   "homepage":"http://data.ec.gc.ca/data",
+   "version":"1.0",
+   "maintainers":[
+      {
+         "e-mail":"enviroinfo@ec.gc.ca",
+         "name":"EC Functional group(eg CMC)",
+         "web":"http://ec.gc.ca"
+      }
+   ],
+   "name":"national-long-term-water-quality-monitoring-data",
+   "title":"National Long-term Water Quality Monitoring Data",
+   "title_fr":"Données nationales de monitoring de la qualité de l'eau à long terme",
+   "description":"Long-term freshwater quality data from federal and federal-provincial sampling sites throughout Canada's aquatic ecosystems are included in this dataset. Measurements regularly include physical-chemical parameters such as temperature, pH, alkalinity, major ions, nutrients and metals. Collection includes data from active sites, as well as historical sites that have a period of record suitable for trend analysis. Sampling frequencies vary according to monitoring objectives. The number of sites in the network varies slightly from year-to-year, as sites are adjusted according to a risk-based adaptive management framework. The Great Lakes are sampled on a rotation basis and not all sites are sampled every year. Data are collected to meet federal commitments related to transboundary watersheds (rivers and lakes crossing international, inter-provincial and territorial borders) or under authorities such as the Department of the Environment Act, the Canada Water Act, the Canadian Environmental Protection Act, 1999, the Federal Sustainable Development Strategy, or to meet Canada's commitments under the 1969 Master Agreement on Apportionment.",
+   "description_fr":"Les données de monitoring de la qualité de l'eau douce à long terme aux sites d'échantillonnage fédéraux et fédéraux-provinciaux à travers les écosystèmes aquatiques du Canada sont incluses dans cet ensemble de données. Les mesures incluent régulièrement les paramètres physico-chimiques tels que la température, le pH, l'alcalinité, les ions majeurs, les nutriments et les métaux. La collection inclut des données des sites actifs, ainsi que des sites historiques qui possèdent une période d'enregistrement propice à l'analyse des tendances. Les fréquences d'échantillonnage varient en fonction des objectifs de monitoring. Le nombre de sites dans le réseau varie légèrement d'une année à l'autre, puisque les sites sont ajustés selon un cadre de travail de gestion adaptative basée sur le risque. Les Grands Lacs sont échantillonnés sur une base rotationnelle et tous les sites ne sont pas échantillonnés à chaque année. Les données sont recueillies afin de rencontrer les engagements fédéraux relatifs aux bassins versants transfrontaliers (rivières et lacs traversant des frontières internationales, interprovinciales et territoriales) ou sous certaines autorités telles que la Loi sur le ministère de l'Environnement, la Loi sur l'environnement, la Loi sur les ressources en eau du Canada, la Loi canadienne sur la protection de l'environnement de 1999, la stratégie fédérale de développement durable, ou pour rencontrer les engagements du Canada dans le cadre de l'Accord cadre sur la répartition des eaux des Prairies de 1969.",
+   "last_updated":"2018-12-07T18:05:22",
+   "image":"Longterm_CWA_2015_EN_s.png",
+   "image_fr":"Longterm_CWA_2015_FR_s_fre.png",
+   "data_openness_rating":"3",
+   "metadata":{
+      "id":"67b44816-9764-4609-ace1-68dc1764e9ea"
+   },
+   "keywords":[
+      "Monitoring",
+      "Water quality",
+      "Water - Quality",
+      "National (CA)",
+      "Observation/Measurement",
+      "Assess Toxicity",
+      "Manage and Monitor for Environmental Presence of Hazardous Substances and Waste",
+      "Monitor / Assess Substance and Waste Levels in Air",
+      "Water",
+      "Soil",
+      "Biota",
+      "Surface water",
+      "Trends",
+      "Rivers",
+      "Lakes",
+      "Water",
+      "Environment",
+      "Environmental indicators",
+      "Metals",
+      "Bacteria",
+      "Federal provincial agreements",
+      "Surveillance",
+      "Status",
+      "Nutrients",
+      "Major ions",
+      "Transboundary",
+      "Pesticides"
+   ],
+   "bbox":"-141.003,41.6755,-52.6174,83.1139",
+   "resources":[
+      {
+         "name":"ESRI REST: Water_Qual_Eau_Sites_National",
+         "format":"ESRI REST: Map Service",
+         "url":"https://maps-cartes.ec.gc.ca/arcgis/rest/services/WaterQualEauSitesNational/WaterQualitySD/MapServer/0"
+      },
+      {
+         "name":"ESRI REST: Water_Qual_Eau_Sites_National",
+         "format":"ESRI REST: Map Service",
+         "url":"https://maps-cartes.ec.gc.ca/arcgis/rest/services/WaterQualEauSitesNational/WaterQualitySD/MapServer/0"
+      },
+      {
+         "name":"WMS: WaterQualEauSitesNational",
+         "format":"OGC:WMS",
+         "url":"https://maps-cartes.ec.gc.ca/arcgis/services/WaterQualEauSitesNational/WaterQualitySD/MapServer/WMSServer?request=GetCapabilities&service=WMS&layers=0&legend_format=image/png&feature_info_type=text/html"
+      },
+      {
+         "name":"WMS: WaterQualEauSitesNational",
+         "format":"OGC:WMS",
+         "url":"https://maps-cartes.ec.gc.ca/arcgis/services/WaterQualEauSitesNational/WaterQualitySD/MapServer/WMSServer?request=GetCapabilities&service=WMS&layers=0&legend_format=image/png&feature_info_type=text/html"
+      },
+      {
+         "title":"OpenTitleOverteTitre.csv",
+         "name":"OpenTitleOverteTitre",
+         "path":"OpenTitleOverteTitre.csv",
+         "format":"csv",
+         "mediatype":"text/csv"
+      },
+      {
+         "title":"OpenTitle_OverteTitre.csv",
+         "name":"OpenTitle_OverteTitre",
+         "path":"OpenTitle_OverteTitre.csv",
+         "format":"csv",
+         "mediatype":"text/csv"
+      },
+      {
+         "title":"disclaimer_avis-exclusion-de-responsabilite.txt",
+         "name":"disclaimer_avis-exclusion-de-responsabilite",
+         "path":"disclaimer_avis-exclusion-de-responsabilite.txt",
+         "format":"txt",
+         "mediatype":"text/plain"
+      },
+      {
+         "title":"Water-Qual-Eau-Sites-National.csv",
+         "name":"Water-Qual-Eau-Sites-National",
+         "path":"Water-Qual-Eau-Sites-National.csv",
+         "format":"csv",
+         "mediatype":"text/csv"
+      },
+      {
+         "title":"Water-Qual-Eau-TableDescriptions.csv",
+         "name":"Water-Qual-Eau-TableDescriptions",
+         "path":"Water-Qual-Eau-TableDescriptions.csv",
+         "format":"csv",
+         "mediatype":"text/csv"
+      },
+      {
+         "title":"Water-Qual-Eau-VariableInfo.csv",
+         "name":"Water-Qual-Eau-VariableInfo",
+         "path":"Water-Qual-Eau-VariableInfo.csv",
+         "format":"csv",
+         "mediatype":"text/csv"
+      },
+      {
+         "title":"digest.txt",
+         "name":"digest",
+         "path":"digest.txt",
+         "format":"txt",
+         "mediatype":"text/plain"
+      },
+      {
+         "title":"Longterm_CWA_2015_FR.png",
+         "name":"Longterm_CWA_2015_FR",
+         "path":"Longterm_CWA_2015_FR.png",
+         "format":"png",
+         "mediatype":"image/png"
+      },
+      {
+         "title":"Longterm_CWA_2015_EN.png",
+         "name":"Longterm_CWA_2015_EN",
+         "path":"Longterm_CWA_2015_EN.png",
+         "format":"png",
+         "mediatype":"image/png"
+      },
+      {
+         "title":"Longterm_CWA_2015_FR_s_fre.png",
+         "name":"Longterm_CWA_2015_FR_s_fre",
+         "path":"Longterm_CWA_2015_FR_s_fre.png",
+         "format":"png",
+         "mediatype":"image/png"
+      },
+      {
+         "title":"Longterm_CWA_2015_EN_s.png",
+         "name":"Longterm_CWA_2015_EN_s",
+         "path":"Longterm_CWA_2015_EN_s.png",
+         "format":"png",
+         "mediatype":"image/png"
+      },
+      {
+         "title":"67b44816-9764-4609-ace1-68dc1764e9ea.xml",
+         "name":"67b44816-9764-4609-ace1-68dc1764e9ea",
+         "path":"67b44816-9764-4609-ace1-68dc1764e9ea.xml",
+         "format":"xml",
+         "mediatype":"text/xml"
+      }
+   ]
+}

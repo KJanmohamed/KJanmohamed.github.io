@@ -8,7 +8,7 @@ body {
   font-size: 15px;
 }
 
-ul {
+#navbar {
   list-style-type: none;
   margin: 1;
   padding: 0;
@@ -19,11 +19,11 @@ ul {
   top: 0;
 }
 
-li {
+#navbar li {
   float: left;
 }
 
-li a {
+#navbar li a {
   display: block;
   color: black;
   text-align: center;
@@ -31,7 +31,7 @@ li a {
   text-decoration: none;
 }
 
-li a:hover {
+#navbar li a:hover {
   background-color: #fff;
 }
 
@@ -42,7 +42,7 @@ li a:hover {
   display: flex;
   flex-wrap: nowrap;
   background-color: #fff;
-	justify-content: center;
+  justify-content: center;
   padding: 25px 16px
 }
 
@@ -57,23 +57,34 @@ li a:hover {
   padding: 25px 16px
 }
 #header {
-	text-align:center;
-	font-size: 30px;
-	color: #fff;
-	background-color: #2196F3;
+  text-align:center;
+  font-size: 30px;
+  color: #ffff;
+  background-color: #2196F3;
   padding: 10px 16px
 }
 
 #text {
-	text-align:center;
+  text-align:center;
   padding: 25px 16px
 }
+
+#BulletList {
+  background-color:none;
+  text-align:center;
+  padding-bottom: 10px
+}
+
+#Lines {
+  line-height:40px;
+}
+
 </style>
 
 <body>
 <!-- Header -->
 
-<ul>
+<ul id="navbar">
   <li><a class="active" href="file:///Users/kalen.janmohamed/Desktop/GitHub%20Repository/KJanmohamed.github.io/Final%20Project/NoPoverty.html"> GOAL 1 </a></li>
 
   <li><a href="file:///Users/kalen.janmohamed/Desktop/GitHub%20Repository/KJanmohamed.github.io/Final%20Project/CleanWaterAndSanitation.html"> GOAL 2 </a></li>
@@ -82,61 +93,104 @@ li a:hover {
 
   <li style="float:right"><a href="#contact"> ACCESIBILITY </a></li>
 
-  <li style="float:right"><a href="#contact"> FEEDBACK </a></li>
+  <li style="float:right"><a href="https://docs.google.com/forms/d/e/1FAIpQLSeH5nhRvWvmlBqDuoDi9yATZvFJXbf9eabIN3hFN2RtUj8liQ/viewform?usp=sf_link"> FEEDBACK </a></li>
 
-  <li style="float:right"><a href="#contact"> DONATE </a></li>
+  <li style="float:right"><a href="https://give.generosity.org/give/225660/#!/donation/checkout"> DONATE </a></li>
 
-  <li style="float:right"><a href="#contact"> VOLENTEER </a></li>
+  <li style="float:right"><a href="https://my.volunteerhq.org/users/new"> VOLENTEER </a></li>
 
   <li style="float:right"><a href="#contact"> FLIPCARD </a></li>
 
 </ul>
 
+
 <center>
   <image src="Images/img.png" style="width:400px; height:400px;"></image>
 </center>
+
 
 <!-- MAIN INFORMATION -->
 
 <p id="header" > INTRODUCTION TO GOAL </p>
 
-<p id="text" > TEXT </p>
-<p id="text" > KEY POINTS </p>
+<p id="text" > Clean water, basic toilets and good hygiene practices are essential for the survival and development of children. Today, there are around 2.4 billion people who do not use improved sanitation, and 663 million who do not have access to improved water sources. Without these basic needs, the lives of millions of children are at risk. For children under five, water- and sanitation-related diseases are one of the leading causes of death. Inadequate sanitation generally means open defecation. When people defecate in the open without a proper waste management system, then the feces generally seeps into and contaminates water systems. Just standing in an open defecation zone can lead to disease, if, for instance, the person is barefoot and parasites are there. UNICEF’s water, sanitation and hygiene (WASH) team works in over 100 countries worldwide to improve water and sanitation services, as well as basic hygiene practices. UNICEF preforms missions on an international stage but you can take part in a smaller project such as donating or volunteering to help this issue. Clicking on the buttons on the top of ur screen will bring you to opportunities where YOU can make a difference.
+ </p> 
 
-<p id="header"> DATA SETS </p>
+<p id="header" > KEY POINTS </p>
+
+<ul id = "BulletList" style="list-style-type:none;">
+
+  <li id="Lines"> 2.1 billion people have gained access to improved water sanitation since 1990. 
+ </li>
+
+  <li id="Lines"> 663 million people are still without water sanitation. This is roughly one out of every 10 people on the planet.</li>
+
+  <li id="Lines"> Due to bad economics or poor infrastructure, millions of people including children die every year from diseases associated with inadequate water supply, sanitation and hygiene. </li>
+
+  <li id="Lines"> Each day, nearly 1,000 children die due to preventable water and sanitation-related diarrheal diseases.
+ </li>
+
+  <li id="Lines"> Each day, nearly 1,000 children die due to preventable water and sanitation-related diarrheal diseases.
+ </li>
+
+  <li id="Lines"> By 2050, it is projected that at least one in four people will be affected by recurring water shortages.
+ </li>
+
+  <li id="Lines"> Only 3 percent of the world’s water is fresh water, and two-thirds of that is tucked away in frozen glaciers or otherwise unavailable for our use. </li>
+</ul> 
 
 <!-- Data Sets -->
+<p id="header"> DATA SETS </p>
 
-<div class="flex-container">
-	<div> 1 DATA SET 
-  		<image src=""style="width:60%"> </image>
-  	<p id="text" > text </p>
-	</div>
-  <div> 2 DATA SET 
-  	<img src="/w3images/bandmember.jpg"style="width:60%">
-  	<p id="text" > text </p>
-  </div>
+<p id="text"> Figure 1 </p>
+  <center>
+    <img src="Images/GraphWater.png">
+  </center>
 
-  <div> 3 DATA SET 
-  	<img src="/w3images/bandmember.jpg"style="width:60%">
-  	<p id="text" > text </p>
-  </div>
-</div>
+<p id="text"> Figure 2 </p>
+  <center>
+    <img src="Images/MapWater.png">
+  </center>
+
+<p id = "header"> DESCRIPTION </p>
+<p id = "text"> The two figures include a graph and a map of the same information. They surround the topic of the different shares of the population with access improved drinking water. Access to an improved water source refers to the percentage of the population using an improved drinking water source. The improved drinking water source includes piped water on premises (piped household water connection located inside the user’s dwelling, plot or yard), and other improved drinking water sources (public taps or standpipes, tube wells or boreholes, protected dug wells, protected springs, and rainwater collection). </p>
 
 <!-- Word Bank -->
 
 <p id="header" > Word Bank </p>
-<p id="text" > TEXT </p>
+
+<ul id = "BulletList" style="list-style-type:none;">
+
+  <li id="Lines">  </li>
+
+  <li id="Lines"> Sanitation --> conditions relating to public health, especially the provision of clean drinking water and adequate sewage disposal. </li>
+
+  <li id="Lines"> Inadequate --> lacking the quality or quantity required; insufficient for a purpose. </li>
+
+  <li id="Lines"> Defecation --> the discharge of feces from the body. </li>
+
+</ul> 
 
 <!-- Resources Used --> 
 
 <p id="header" > Resources </p>
-<p id="text" > TEXT </p>
 
+<ul id = "BulletList" style="list-style-type:none;">
 
+  <li id="Lines"> http://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-6-clean-water-and-sanitation.html </li>
 
+  <li id="Lines"> https://www.un.org/sustainabledevelopment/water-and-sanitation/ </li>
 
+  <li id="Lines"> https://www.cdc.gov/healthywater/global/wash_statistics.html </li>
 
+  <li id="Lines"> http://www.sdgfund.org/goal-6-clean-water-and-sanitation </li>
+
+  <li id="Lines"> https://www.worldvision.ca/our-work/clean-water </li>
+
+  <li id="Lines"> https://ourworldindata.org/water-use-sanitation </li>
+
+  <li id="Lines">  </li>
+</ul> 
 
 </body>
 </html>
